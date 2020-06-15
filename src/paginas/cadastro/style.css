@@ -1,0 +1,166 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.voltar{
+    width: 50px;
+    height: 50px;
+    background: #6272A4;
+    box-shadow: 1px 1px 2px rgba(98, 114, 164, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.voltar h4{
+    font-size: 15px;
+    display: none;
+    color: white;
+}
+.voltar:hover{
+    width: 150px;
+    transition: 0.5s;
+
+}
+.voltar:hover h4{
+    display: flex;
+    transition: 0.5;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+
+.areaCadastro{
+    margin-left: -10%;
+    margin-top: 3%;
+    color: #6272A4;
+}
+
+.areaCadastro img{
+    width: 70%;
+}
+
+.areaCadastro button{
+    width: 50%;
+    height: 50px;
+    color: white;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    background: #6272A4;
+    box-shadow: 1px 1px 2px rgba(98, 114, 164, 0.7);
+    border: none;
+    margin-left: 22%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.areaCadastro button:hover{
+    background-color: #44475A;
+}
+
+
+.vetorCadastro{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.vetorCadastro img{
+    width: 50%;
+}
+
+.vetorCadastro .informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+    height: 100vh;
+}
+.informacao p{
+    text-align: justify;
+}
+
+.informacao h1{
+    font-size: 35px;
+    color: #6272A4;
+}
+.informacao h3{
+    color: #44475A;
+}
+
+@media screen and (max-width: 414px){
+    .container{
+        flex-direction: column;
+            
+    }
+
+    .voltar{
+        position: fixed;
+        height: 30px;
+        margin:auto -44%;
+    }
+
+    .areaCadastro{
+        margin-left: 0;
+        margin-top: 15%;
+    }
+    .inputTotal{
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .areaCadastro img{
+        margin-bottom: 50px;
+    }
+    .vetorCadastro{
+        width: 100%;
+        height: 100%;
+        align-items: flex-end;
+    }
+    .vetorCadastro img{
+        width: 30%;
+    }
+
+.vetorCadastro{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.vetorCadastro .informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 30px;
+    height: 100%;
+    margin-left: 10px;
+}
+.vetorCadastro .informacao p{
+    font-size: 11px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.vetorCadastro .informacao h1{
+    font-size: 15px;
+}
+.vetorCadastro .informacao h3{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+}
