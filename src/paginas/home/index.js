@@ -9,13 +9,13 @@ import Header from "../../componentes/header";
 
 export default function Home(){
 
-    let message = "Olá me chamo hello world e nao sei o que dizer uiuiui zap socorro meu deus jesus cristo"
-    let message2 = "Olá me chamo hello world e nao sei o que dizer uiuiui zap socorro meu deus jesus cristo,Olá me chamo hello world e nao sei o que dizer uiuiui zap socorro meu deus jesus cristo"
+    let message = "Olá me chamo hello world e nao sei o que dizer, teste de texto"
+    let message2 = "Olá me chamo hello world e nao sei o que dizer teste, teste"
     const DATA = [
         {
           id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
           title: 'First Item',
-          text: 'loremipsum apenas ne nao? eh sim familia',
+          text: 'LoremIpsum teste',
           user: {
                   nome: 'Patrick',
               }
