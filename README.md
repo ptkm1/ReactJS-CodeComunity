@@ -1,4 +1,5 @@
 # Code Comunity
+Acesse e veja como está: https://codecomunity.vercel.app/ (sem back-end)
 
 # Tecnologias
 - ReactJS
